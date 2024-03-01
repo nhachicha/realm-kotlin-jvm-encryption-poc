@@ -15,7 +15,7 @@ Click on `Run MainKt`
 ## Standalone jar
 
 ```Gradle
-./gradlew clean jar
+./gradlew --refresh-dependencies clean jar
 java -jar build/libs/JVM_Console-1.0.0.jar
 ```
 
